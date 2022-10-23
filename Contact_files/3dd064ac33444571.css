@@ -22,6 +22,17 @@ html {
 body {
   margin: 0;
   line-height: inherit;
+
+  display:block;
+  background-color:var(--primary);
+  background-image:
+  radial-gradient(at 19% 70%, hsla(244,88%,72%,1) 0px, transparent 50%),
+  radial-gradient(at 1% 19%, hsla(336,94%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 13% 94%, hsla(49,64%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 96% 98%, hsla(215,93%,60%,1) 0px, transparent 50%),
+  radial-gradient(at 16% 48%, hsla(301,88%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 24% 94%, hsla(8,82%,74%,1) 0px, transparent 50%),
+  radial-gradient(at 54% 8%, hsla(264,95%,66%,1) 0px, transparent 50%);
 }
 hr {
   height: 0;
