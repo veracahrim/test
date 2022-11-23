@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF 8">
+    <meta http-equiv="X-UA-Compatible content=IE=edge">
+    <meta name="vieport" content="widt=device-width, initial-scla=1.0">
+    <title>Simon Perdrizat</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- ----------fontawesome für Logos---------- -->
+    <script src="https://kit.fontawesome.com/36752da940.js" crossorigin="anonymous"></script>
+    <!--Test Funktion Menu-->
+    <!--<script src="js/app.js"></script>-->
+    <!--Test Funktion Menu-->
+</head>
+<body>
+    <!-- ----------Header---------- -->
+    <section id="header" data-nav="Home">
+        <div class="container">
+            <nav>
+                <img src="images/simon-logo-white-removebg.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">Über mich</a></li>
+                    <li><a href="#interessen" onclick="closemenu()">Interessen</a></li>
+                    <!------------noch anpassen------------>
+                    <li><a href="#portfolio" onclick="closemenu()">Inhalt ?</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Kontakt</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Passionierter Kitesurfer und Teilzeit-Student 🎓</p>
+                <h1>Hi, ich bin <span>Simon</span> <br>aus der Schweiz</h1>
+            </div>
+        </div>
+    </section>
+    <!-- ----------Übermich---------- -->
+    <section id="about" data-nav="Über mich">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/_DSC6397.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Über mich</h1>
+                    <p>v
+                        ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
+                        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
+                        sanctus est Lorem ipsum dolor sit amet.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('erfahrung')">Erfahrung</p>
+                            <p class="tab-links" onclick="opentab('ausbildung')">Ausbildung</p>
+                            <p class="tab-links" onclick="opentab('zertifikate')">Zertifikate</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="erfahrung">
+                            <ul>
+                                <li><span>April 2021 - Heute</span><br>Abacus ERP Consultant bei Fidigit (Schweiz) AG</li>
+                                <li><span>Februar 2020 - April 2021</span><br>PwC Switzerland</li>
+                                <li><span>August 2015 - Februar 2020</span><br>Projektleiter bei Pro-Lehrsysteme AG</li>
+                                <li><span>Juli 2014 - Juli 2015</span><br>Verkaufsassistent bei Micarna SA</li>
+                                <li><span>August 2013 - Juli 2014</span><br>Finanzen bei Micarna SA</li>
+                                <li><span>August 2010 - Juli 2013</span><br>Lehre als Kaufmann mit Berufsmaturität bei Micarna SA</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="ausbildung">
+                            <ul>
+                                <li><span>2020-2024</span><br>Bachelor of Science Business Information Technology an der Berner Fachhochschule BFH in Bern - Schweiz</li>
+                                <li><span>2017-2017</span><br>MarKom Zertifikatsprüfung bei Educavanti in Thun - Schweizli>
+                                <li><span>2017-2017</span><br>Personality Coaching an der Stage School, Hamburg in Zürich - Schweiz</li>
+                                <li><span>2010-2013</span><br>Lehr als Kaufmann an der KBS Kaufmännische Berufsschule in Fribourg - Schweiz</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="zertifikate">
+                            <ul>
+                                <li><span>November 2020</span><br>AbaProject Customizing bei Abacus Research AG in Wittenbach (SG)</li>
+                                <li><span>Oktober 2020</span><br>Auftragsbearbeitung Customizing bei Abacus Research AG in Wittenbach (SG)</li>
+                                <li><span>September 2020</span><br>AbaReport Customizing bei Abacus Research AG in Wittenbach (SG)</li>
+                                <li><span>August 2020</span><br>Workshop Business Process Engine bei Abacus Research AG in Wittenbach (SG)</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------Interessen---------- -->
+    <section id="interessen" data-nav="Interessen">
+        <div class="container">
+            <h1 class="sub-title">Was ich mag</h1>
+            <div class="interessen-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Kitesurfen</h2>
+                    <p>Kitesurfen ist der beste Sport, den ich je begonnen habe auszuüben. Wenn du nicht weiss was Kitesurfen ist, 
+                        dann schaue dir doch das Video unter Mehr an. </p>
+                    <a href="https://www.youtube.com/watch?v=l5DCarnrj0s&ab_channel=TheOKKiteboarder">Mehr</a>
+                </div>
+                <div>
+                    <!--Fehler Logo noch suchen-->
+                    <i class="fa-solid fa-hockey-puck"></i>
+                    <h2>Eishockey</h2>
+                    <p>Seit meinem 6. Lebensjahr spiele ich Eishockey. Wenn du mehr über mein Werdegang erfahren möchtest, sieht dir die Infos unter Mehr an.</p>
+                    <a href="https://www.eliteprospects.com/player/94043/simon-perdrizat">Mehr</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h2>Reisen</h2>
+                    <p>Wie viele Menschen Reise ich gerne. Klicke auf Mehr und buche  deinen nächsten Urlaub gleich hier.</p>
+                    <a href="https://www.booking.com/">Mehr</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------keine Ahnung offen---------- -->
+    <!-- ----------noch anpassen oder löschen---------- -->
+    <section id="portfolio" data-nav="???">
+        <div class="container">
+            <!-- ----------noch anpassen oder löschen---------- -->
+            <h1 class="sub-title">My Work</h1>
+            <!-- ----------noch anpassen oder löschen---------- -->
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/phone-wallpaper-ga5325187c_1280.jpg">
+                    <div class="layer">
+                        <h3>Gärtnern</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- ----------noch anpassen oder löschen---------- -->
+                <div class="work">
+                    <img src="images/snow-trail-g9a8e24b04_1280.jpg">
+                    <div class="layer">
+                        <h3>Snowboarden</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- ----------noch anpassen oder löschen---------- -->
+                <div class="work">
+                    <img src="images/alps-gf4a283495_1280.jpg">
+                    <div class="layer">
+                        <h3>Wandern</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Mehr</a>
+        </div>
+    </section>
+    <!-- ----------Kontakt---------- -->
+    <section id="contact" data-nav="Kontakt">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Kontaktiere mich</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> simi.perdrizat@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i> +41 31 800 99 99</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/simonperdrizat"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/Simi_2394/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Simi2394"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <!--Anhang anpassen-->
+                    <a href="images/_DSC6397.jpg" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="post" id="form">
+                        <input type="hidden" name="access_key" value="c0b0a5f5-386d-4fc4-8727-595b3837255e" />
+                        <input type="hidden" name="subject" value="Test für sperdriz.at" />
+                        <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                        <input type="text" name="Name" placeholder="Dein Name" required>
+                        <input type="text" name="Email" placeholder="Dein E-Mail" required>
+                        <textarea type="text" name="Nachricht" rows="6" placeholder="Deine Nachricht"></textarea>
+                        <button type="submit" class="btn btn2">Senden</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <!--anpassen oder löschen-->
+        <div class="copyright">
+            <p>copyright ©</p>
+        </div>
+    </section>
+
+<script>
+
+    /*-------Funktion für aktive Tabs in über mich*/
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    /*---------Funktion für sidemenu Smartphones----------*/
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+    /*---------Funktion für Kontaktformular Responses----------*/
+    const form = document.getElementById('form');
+    const msg = document.getElementById('msg');
+
+    form.addEventListener('submit', function(e) {
+        const formData = new FormData(form);
+        e.preventDefault();
+        var object = {};
+        formData.forEach((value, key) => {
+            object[key] = value
+        });
+        var json = JSON.stringify(object);
+        msg.innerHTML = "Bitte warten..."
+
+        fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    msg.innerHTML = json.message;
+                } else {
+                    console.log(response);
+                    msg.innerHTML = json.message;
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                msg.innerHTML = "Da ging etwas schief.";
+            })
+            .then(function() {
+                form.reset();
+                setTimeout(() => {
+                    msg.innerHTML = "";
+                }, 5000);
+            });
+    });
+</script>
+
+</body>
+</html>
