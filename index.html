@@ -12,23 +12,24 @@
     <!--<script src="js/app.js"></script>-->
     <!--Test Funktion Menu-->
 </head>
+<!-- ----------navbar---------- -->
 <body>
+    <nav>
+        <img src="images/simon-logo-white-removebg.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#" onclick="closemenu()">Home</a></li>
+            <li><a href="#about" onclick="closemenu()">Über mich</a></li>
+            <li><a href="#interessen" onclick="closemenu()">Interessen</a></li>
+            <!------------noch anpassen------------>
+            <li><a href="#portfolio" onclick="closemenu()">Inhalt ?</a></li>
+            <li><a href="#contact" onclick="closemenu()">Kontakt</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
     <!-- ----------Header---------- -->
     <section id="header" data-nav="Home">
-        <div class="container">
-            <nav>
-                <img src="images/simon-logo-white-removebg.png" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header" onclick="closemenu()">Home</a></li>
-                    <li><a href="#about" onclick="closemenu()">Über mich</a></li>
-                    <li><a href="#interessen" onclick="closemenu()">Interessen</a></li>
-                    <!------------noch anpassen------------>
-                    <li><a href="#portfolio" onclick="closemenu()">Inhalt ?</a></li>
-                    <li><a href="#contact" onclick="closemenu()">Kontakt</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
+        <div class="container-home">
             <div class="header-text">
                 <p>Passionierter Kitesurfer und Teilzeit-Student 🎓</p>
                 <h1>Hi, ich bin <span>Simon</span> <br>aus der Schweiz</h1>
