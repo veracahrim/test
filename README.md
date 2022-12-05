@@ -14,4 +14,4 @@ Eingereicht bei Dominic Schweizer
 
 Eingereicht am 21.12.2022
 
-https://simi2394.github.io/sperdriz.at/
+https://simi2394.github.io/simonperdriz.at/
