@@ -13,3 +13,5 @@ Autor Simon Perdrizat, simon.perdrizat@students.bfh.ch
 Eingereicht bei Dominic Schweizer
 
 Eingereicht am 21.12.2022
+
+https://simi2394.github.io/sperdriz.at/
